@@ -1,0 +1,40 @@
+{
+  "name": "Skip App Ads Swiplet Repository",
+  "localizedNames": {
+    "ko": "앱 광고 건너뛰기 저장소"
+  },
+  "icon": {
+    "symbol": "forward.end.fill",
+    "color": "blue"
+  },
+  "swiplets": [
+    {
+      "id": "skip-app-ads-all-apps",
+      "name": "Skip App Ads",
+      "localizedNames": {
+        "ko": "앱 광고 건너뛰기"
+      },
+      "version": "0.1.0",
+      "versionCode": 1,
+      "icon": {
+        "color": "red",
+        "symbol": "forward.end.fill"
+      },
+      "interface": true,
+      "service": true,
+      "actions": [
+        {
+          "name": "supportedApps",
+          "title": "List Installed Apps"
+        },
+        {
+          "name": "recordedApps",
+          "title": "List Recorded Apps"
+        }
+      ],
+      "url": "skip-app-ads-all-apps.swiplet",
+      "size": 153729,
+      "sha256": "4effa1bf63161e3c0775922b6eaff9ce852e2a43f9be81d37a66600e5619a519"
+    }
+  ]
+}

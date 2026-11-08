@@ -1,0 +1,35 @@
+{
+  "name": "skip-chinese-ads",
+  "version": "0.1.0",
+  "private": true,
+  "swiplet": {
+    "id": "skip-app-ads-all-apps",
+    "versionCode": 1,
+    "name": "Skip App Ads",
+    "localizedNames": {
+      "ko": "앱 광고 건너뛰기"
+    },
+    "icon": {
+      "color": "red",
+      "symbol": "forward.end.fill"
+    },
+    "app": "./src/App.tsx",
+    "extension": "./src/extension.ts"
+  },
+  "scripts": {
+    "build": "swipt project build",
+    "check": "tsc"
+  },
+  "devDependencies": {
+    "@expo/ui": "~58.0.26",
+    "@swipt/api": "0.1.0-nightly.59",
+    "@swipt/cli": "0.1.0-nightly.59",
+    "@types/react": "~19.3.0",
+    "expo-sqlite": "~58.0.15",
+    "react": "19.3.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.4"
+  }
+}
